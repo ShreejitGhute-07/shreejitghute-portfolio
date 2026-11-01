@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Shreejit Jitendra Ghute — QA Engineer portfolio">
+<title>Shreejit Ghute | QA Engineer</title>
+<style>
+:root {
+  --primary:#0F766E;
+  --navy:#102A43;
+  --background:#F8FAFC;
+  --text:#172033;
+  --muted:#526174;
+  --border:#DCE4EC;
+  --surface:#FFFFFF;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--background);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+a{text-decoration:none;color:inherit}
+.container{width:min(1100px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;background:#f8fafcf0;backdrop-filter:blur(12px);border-bottom:1px solid var(--border);z-index:10}
+nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:22px;font-weight:800}
+.logo span,h1 span{color:var(--primary)}
+.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}
+.navlinks a:hover{color:var(--primary)}
+.btn{display:inline-block;background:var(--primary);color:white;padding:11px 17px;border-radius:9px;font-weight:700;font-size:14px}
+.btn.outline{background:transparent;color:var(--text);border:1px solid #CBD5E1}
+.hero{padding:110px 0 85px}
+.eyebrow{color:var(--primary);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+h1,h2,h3{line-height:1.15;letter-spacing:-.5px}
+h1{font-size:clamp(42px,7vw,76px);margin:22px 0}
+.hero p{max-width:680px;color:var(--muted);font-size:18px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.facts{display:flex;gap:25px;flex-wrap:wrap;margin-top:38px;color:var(--muted);font-size:14px}
+section{padding:75px 0;border-top:1px solid var(--border)}
+.sectionhead{margin-bottom:32px}
+h2{font-size:clamp(30px,4vw,46px);margin:12px 0}
+.note{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px}
+.card h3{margin:10px 0}
+.card p,.about p{color:var(--muted)}
+.aboutgrid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px}
+.focus ul{padding-left:20px;color:var(--muted)}
+.experience{border-left:3px solid var(--primary);padding:5px 0 5px 25px}
+.experience li{margin:10px 0;color:var(--muted)}
+.date{color:var(--primary);font-weight:700;font-size:14px}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.tag{background:#F1F5F9;border:1px solid var(--border);padding:5px 9px;border-radius:6px;font-size:12px;color:#334155}
+.education{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.contact{background:var(--navy);color:white;border-radius:18px;padding:40px}
+.contact p{color:#CBD5E1}
+.contactlinks{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px}
+.contactlinks a{color:#E2E8F0;text-decoration:underline;text-underline-offset:4px}
+footer{padding:28px 0;color:var(--muted);font-size:13px}
+footer .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:750px){
+ .navlinks{display:none}
+ .hero{padding:75px 0}
+ .grid{grid-template-columns:1fr}
+ .aboutgrid,.projects,.education{grid-template-columns:1fr}
+ section{padding:58px 0}
+ .contact{padding:25px}
+}
+@media(prefers-reduced-motion:no-preference){
+ .card{transition:transform .2s,border-color .2s}
+ .card:hover{transform:translateY(-4px);border-color:var(--primary)}
+ .hero>*{animation:enter .7s both}
+ @keyframes enter{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+}
+</style>
+</head>
+<body>
+<header>
+ <nav class="container">
+  <a class="logo" href="#home">SG<span>.</span></a>
+  <div class="navlinks">
+   <a href="#about">About</a><a href="#skills">Skills</a>
+   <a href="#experience">Experience</a><a href="#projects">Projects</a>
+   <a href="#education">Education</a>
+  </div>
+  <a class="btn" href="#contact">Let's connect ↗</a>
+ </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div class="container">
+  <div class="eyebrow">QA Engineer · Pune, India</div>
+  <h1>Building confidence<br>through <span>quality testing.</span></h1>
+  <p>I'm Shreejit Jitendra Ghute, a QA Engineer focused on manual testing, API validation, and UI test automation. I enjoy exploring application workflows, finding edge cases, and helping teams deliver reliable software.</p>
+  <div class="actions">
+   <a class="btn" href="mailto:shreejitghute07@gmail.com">Contact me ↗</a>
+   <a class="btn outline" href="https://linkedin.com/in/shreejit-ghute-471989226" target="_blank" rel="noopener">LinkedIn ↗</a>
+   <a class="btn outline" href="https://github.com/ShreejitGhute-07" target="_blank" rel="noopener">GitHub ↗</a>
+  </div>
+  <div class="facts">
+   <span>● Currently QA Engineer at miniOrange</span>
+   <span>Manual · API · Automation</span>
+   <span>Pune, Maharashtra</span>
+  </div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="container">
+  <div class="sectionhead"><div class="eyebrow">A little about me</div><h2>Curious by nature.<br>Quality focused.</h2></div>
+  <div class="aboutgrid">
+   <div class="about">
+    <p>I work on web application quality at <strong>miniOrange</strong>, where I test authentication and identity-management workflows. My experience includes designing and executing test cases, validating APIs with Postman, reproducing defects, and verifying fixes. I'm also developing my UI automation skills with <strong>Cypress and JavaScript</strong> through hands-on projects.</p>
+   </div>
+   <div class="card focus">
+    <h3>What I focus on</h3>
+    <ul>
+     <li>Clear test scenarios and meaningful coverage</li>
+     <li>Positive, negative, and edge-case validation</li>
+     <li>API behavior, response checks, and error handling</li>
+     <li>Reliable authentication and user workflows</li>
+    </ul>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="skills">
+ <div class="container">
+  <div class="sectionhead"><div class="eyebrow">Capabilities</div><h2>Skills & tools</h2><p class="note">A practical toolkit for testing web applications and authentication flows.</p></div>
+  <div class="grid">
+   <article class="card"><h3>Manual Testing</h3><p>Functional, regression, smoke, negative testing, test case design, execution, and defect reporting.</p></article>
+   <article class="card"><h3>API Testing</h3><p>Postman, REST API validation, request and response checks, status codes, and error handling.</p></article>
+   <article class="card"><h3>Test Automation</h3><p>Cypress, JavaScript, UI test cases, selectors, assertions, and reusable test structures.</p></article>
+   <article class="card"><h3>Identity & Access</h3><p>SSO, SAML, OAuth, MFA, email OTP, SMS OTP, and user provisioning workflows.</p></article>
+   <article class="card"><h3>Programming & Data</h3><p>JavaScript, C, Python, SQL, and MySQL.</p></article>
+   <article class="card"><h3>Web & Developer Tools</h3><p>HTML, CSS, React.js, Node.js, Express.js, Git, GitHub, and VS Code.</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="experience">
+ <div class="container">
+  <div class="sectionhead"><div class="eyebrow">Career journey</div><h2>Experience</h2></div>
+  <article class="experience">
+   <h3>QA Engineer · miniOrange</h3>
+   <div class="date">September 2025 – Present</div>
+   <p class="note">Pune, Maharashtra · Joined as QA Tester Intern; completed six months of internship and six months of probation; confirmed as QA Engineer in September 2026.</p>
+   <ul>
+    <li>Execute functional, regression, smoke, and release testing for web application features.</li>
+    <li>Design and maintain test cases for SSO, SAML, OAuth, MFA, and OTP authentication workflows.</li>
+    <li>Perform API testing with Postman, validating request parameters, response payloads, status codes, and error handling.</li>
+    <li>Reproduce and document defects with clear steps and expected versus actual results, then verify fixes.</li>
+    <li>Validate positive, negative, and edge-case scenarios across identity and authentication workflows.</li>
+   </ul>
+  </article>
+ </div>
+</section>
+
+<section id="projects">
+ <div class="container">
+  <div class="sectionhead"><div class="eyebrow">Selected work</div><h2>Projects</h2><p class="note">Hands-on automation practice and application development.</p></div>
+  <div class="projects">
+   <article class="card">
+    <div class="eyebrow">Test automation project</div><h3>ShopSmart</h3>
+    <p>An e-commerce practice application used to build Cypress UI automation skills. Created and executed five tests covering the homepage, product display, cart functionality, and category filtering.</p>
+    <div class="tags"><span class="tag">Cypress</span><span class="tag">JavaScript</span><span class="tag">UI Testing</span><span class="tag">Assertions</span></div>
+   </article>
+   <article class="card">
+    <div class="eyebrow">Application development</div><h3>TrackMyLab</h3>
+    <p>A lab management system with attendance tracking and faculty/student workflows. Implemented real-time communication, screen sharing, notifications, and email OTP functionality.</p>
+    <div class="tags"><span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">MySQL</span><span class="tag">Firebase</span><span class="tag">WebRTC</span><span class="tag">WebSockets</span><span class="tag">Brevo</span></div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section id="education">
+ <div class="container">
+  <div class="sectionhead"><div class="eyebrow">Academic background</div><h2>Education & learning</h2></div>
+  <div class="education">
+   <article class="card"><h3>B.E. in Information Technology</h3><p class="note">PES Modern College of Engineering, Pune</p><div class="date">2021 – 2025 · CGPA 8.11/10</div></article>
+   <article class="card"><h3>AWS Internship Studio</h3><p class="note">AWS Intern · Learning and development activities</p><div class="date">January 2024 – February 2024</div></article>
+  </div>
+  <div class="tags">
+   <span class="tag">AWS Academy Cloud Foundations</span>
+   <span class="tag">AWS Cloud Practitioner Essentials</span>
+   <span class="tag">JavaScript Certification · Infosys Springboard</span>
+  </div>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="container">
+  <div class="contact">
+   <div class="eyebrow">Get in touch</div>
+   <h2>Let's build better<br>software together.</h2>
+   <p>Open to connecting about QA Engineer, QA Analyst, and junior QA Automation opportunities. Feel free to reach out by email or connect with me professionally.</p>
+   <div class="contactlinks">
+    <a href="mailto:shreejitghute07@gmail.com">Email: shreejitghute07@gmail.com</a>
+    <a href="tel:+918793113116">Phone: +91 87931 13116</a>
+    <a href="https://linkedin.com/in/shreejit-ghute-471989226" target="_blank" rel="noopener">LinkedIn ↗</a>
+    <a href="https://github.com/ShreejitGhute-07" target="_blank" rel="noopener">GitHub ↗</a>
+   </div>
+   <p><a class="btn" href="mailto:shreejitghute07@gmail.com?subject=Opportunity%20for%20Shreejit%20Ghute">Send me an email ↗</a></p>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer><div class="container"><span>© <span id="year">2026</span> Shreejit Jitendra Ghute</span><span>Pune, Maharashtra, India</span></div></footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
